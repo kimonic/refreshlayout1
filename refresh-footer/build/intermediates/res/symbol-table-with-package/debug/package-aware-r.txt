@@ -1,0 +1,2 @@
+com.scwang.smartrefresh.footer
+int string app_name 0x7f150001
