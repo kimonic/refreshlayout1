@@ -88,70 +88,221 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
     //<editor-fold desc="属性变量 property and variable">
 
     //<editor-fold desc="滑动属性">
+    /***/
     protected int mTouchSlop;
-    protected int mSpinner;//当前的 Spinner
-    protected int mLastSpinner;//最后的，的Spinner
-    protected int mTouchSpinner;//触摸时候，的Spinner
-    protected int mFloorDuration = 250;//二楼展开时长
-    protected int mReboundDuration = 250;//回弹动画时长
-    protected int mScreenHeightPixels;//屏幕高度
+    /**
+     * 当前的 Spinner
+     */
+    protected int mSpinner;//
+    /**
+     * 最后的，的Spinner
+     */
+    protected int mLastSpinner;//
+    /**
+     * 触摸时候，的Spinner
+     */
+    protected int mTouchSpinner;//
+    /**
+     * 二楼展开时长
+     */
+    protected int mFloorDuration = 250;//
+    /**
+     * 回弹动画时长
+     */
+    protected int mReboundDuration = 250;//
+    /**
+     * 屏幕高度
+     */
+    protected int mScreenHeightPixels;//
+    /***/
     protected float mTouchX;
+    /***/
     protected float mTouchY;
-    protected float mLastTouchX;//用于实现Header的左右拖动效果
-    protected float mLastTouchY;//用于实现多点触摸
-    protected float mDragRate = .5f;
+    /**
+     * 用于实现Header的左右拖动效果
+     */
+    protected float mLastTouchX;//
+    /**
+     * 用于实现多点触摸
+     */
+    protected float mLastTouchY;//
+    /**
+     * 拖动速率,拖动黏滞系数??
+     */
+    protected float mDragRate = .5f;//
+    /**
+     * 正在拖动
+     */
     protected boolean mIsBeingDragged;
+    /**
+     * 垂直拖动
+     */
     protected boolean mVerticalDragged;
+    /**
+     * 水平拖动
+     */
     protected boolean mHorizontalDragged;
-    protected boolean mSuperDispatchTouchEvent;         //父类是否处理触摸事件
+    /**
+     * 父类是否处理触摸事件
+     */
+    protected boolean mSuperDispatchTouchEvent;
+    /**
+     * 反弹差值器
+     */
     protected Interpolator mReboundInterpolator;
-    protected int mFixedHeaderViewId;//固定在头部的视图Id
-    protected int mFixedFooterViewId;//固定在底部的视图Id
-
+    /**
+     * 固定在头部的视图Id
+     */
+    protected int mFixedHeaderViewId;//
+    /**
+     * 固定在底部的视图Id
+     */
+    protected int mFixedFooterViewId;//
+    /**
+     * 速滑的最小值
+     */
     protected int mMinimumVelocity;
+    /**
+     * 速滑的最大值
+     */
     protected int mMaximumVelocity;
+    /**
+     * 滚动工具类
+     */
     protected Scroller mScroller;
+    /**
+     * 速度跟踪器
+     */
     protected VelocityTracker mVelocityTracker;
 
     //</editor-fold>
 
     //<editor-fold desc="功能属性">
+    /**
+     * 主题色
+     */
     protected int[] mPrimaryColors;
+    /**
+     * 允许下拉刷新
+     */
     protected boolean mEnableRefresh = true;
+    /**
+     * 允许上拉加载
+     */
     protected boolean mEnableLoadmore = false;
-    protected boolean mEnableHeaderTranslationContent = true;//是否启用内容视图拖动效果
-    protected boolean mEnableFooterTranslationContent = true;//是否启用内容视图拖动效果
-    protected boolean mEnableFooterFollowWhenLoadFinished = false;//是否在全部加载结束之后Footer跟随内容 1.0.4-6
-    protected boolean mEnablePreviewInEditMode = true;//是否在编辑模式下开启预览功能
-    protected boolean mEnableOverScrollBounce = true;//是否启用越界回弹
-    protected boolean mEnableOverScrollDrag = true;//是否启用越界拖动（仿苹果效果）1.0.4-6
-    protected boolean mEnableAutoLoadmore = true;//是否在列表滚动到底部时自动加载更多
-    protected boolean mEnablePureScrollMode = false;//是否开启纯滚动模式
-    protected boolean mEnableScrollContentWhenLoaded = true;//是否在加载更多完成之后滚动内容显示新数据
-    protected boolean mEnableScrollContentWhenRefreshed = true;//是否在刷新完成之后滚动内容显示新数据
-    protected boolean mEnableLoadmoreWhenContentNotFull = true;//在内容不满一页的时候，是否可以上拉加载更多
-    protected boolean mDisableContentWhenRefresh = false;//是否开启在刷新时候禁止操作内容视图
-    protected boolean mDisableContentWhenLoading = false;//是否开启在刷新时候禁止操作内容视图
-    protected boolean mLoadmoreFinished = false;//数据是否全部加载完成，如果完成就不能在触发加载事件
-
-    protected boolean mManualLoadmore = false;//是否手动设置过Loadmore，用于智能开启
-    protected boolean mManualNestedScrolling = false;//是否手动设置过 NestedScrolling，用于智能开启
-    protected boolean mManualHeaderTranslationContent = false;//是否手动设置过内容视图拖动效果
+    /**
+     * 是否启用内容视图拖动效果
+     */
+    protected boolean mEnableHeaderTranslationContent = true;//
+    /**
+     * 是否启用内容视图拖动效果
+     */
+    protected boolean mEnableFooterTranslationContent = true;//
+    /**
+     * 是否在全部加载结束之后Footer跟随内容 1.0.4-6
+     */
+    protected boolean mEnableFooterFollowWhenLoadFinished = false;//
+    /**
+     * 是否在编辑模式下开启预览功能
+     */
+    protected boolean mEnablePreviewInEditMode = true;//
+    /**
+     * 是否启用越界回弹
+     */
+    protected boolean mEnableOverScrollBounce = true;//
+    /**
+     * 是否启用越界拖动（仿苹果效果）1.0.4-6
+     */
+    protected boolean mEnableOverScrollDrag = true;//
+    /**
+     * 是否在列表滚动到底部时自动加载更多
+     */
+    protected boolean mEnableAutoLoadmore = true;//
+    /**
+     * 是否开启纯滚动模式
+     */
+    protected boolean mEnablePureScrollMode = false;//
+    /**
+     * 是否在加载更多完成之后滚动内容显示新数据
+     */
+    protected boolean mEnableScrollContentWhenLoaded = true;//
+    /**
+     * 是否在刷新完成之后滚动内容显示新数据
+     */
+    protected boolean mEnableScrollContentWhenRefreshed = true;//
+    /**
+     * 在内容不满一页的时候，是否可以上拉加载更多
+     */
+    protected boolean mEnableLoadmoreWhenContentNotFull = true;//
+    /**
+     * 是否开启在刷新时候禁止操作内容视图
+     */
+    protected boolean mDisableContentWhenRefresh = false;//
+    /**
+     * 是否开启在刷新时候禁止操作内容视图
+     */
+    protected boolean mDisableContentWhenLoading = false;//
+    /**
+     * 数据是否全部加载完成，如果完成就不能在触发加载事件
+     */
+    protected boolean mLoadmoreFinished = false;//
+    /**
+     * 是否手动设置过Loadmore，用于智能开启
+     */
+    protected boolean mManualLoadmore = false;//
+    /**
+     * 是否手动设置过Loadmore，用于智能开启
+     */
+    protected boolean mManualNestedScrolling = false;//x
+    /**
+     * 是否手动设置过内容视图拖动效果
+     */
+    protected boolean mManualHeaderTranslationContent = false;//
     //</editor-fold>
 
-    //<editor-fold desc="监听属性">
+    //<editor-fold desc="监听属性">-
+    /**
+     * 下拉刷新监听器
+     */
     protected OnRefreshListener mRefreshListener;
+    /**
+     * 上拉加载监听器
+     */
     protected OnLoadmoreListener mLoadmoreListener;
+    /**
+     * 多功能监听器
+     */
     protected OnMultiPurposeListener mOnMultiPurposeListener;
+    /**
+     * 滚动边界决策者,接口,含判断是否可上拉,下拉两个方法
+     */
     protected ScrollBoundaryDecider mScrollBoundaryDecider;
     //</editor-fold>
 
     //<editor-fold desc="嵌套滚动">
+    /**
+     * 福布局滚动消耗坐标点数组
+     */
     protected int[] mParentScrollConsumed = new int[2];
+    /**
+     * 父布局在窗口中的偏移量坐标点数组
+     */
     protected int[] mParentOffsetInWindow = new int[2];
+    /**
+     * 未耗尽的总数值
+     */
     protected int mTotalUnconsumed;
+    /**
+     * 在前进中嵌套滚动??
+     */
     protected boolean mNestedScrollInProgress;
+    /**
+     * 子布局嵌套滚动辅助类
+     */
     protected NestedScrollingChildHelper mNestedScrollingChildHelper;
+    /**
+     * 父布局嵌套滚动辅助类
+     */
     protected NestedScrollingParentHelper mNestedScrollingParentHelper;
     //</editor-fold>
 
@@ -160,11 +311,17 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
      * 头部高度
      */
     protected int mHeaderHeight;
+    /**
+     * 尺寸值的定义状态，用于在值覆盖的时候决定优先级,默认最低优先级
+     */
     protected DimensionStatus mHeaderHeightStatus = DimensionStatus.DefaultUnNotify;
     /**
      * 底部高度
      */
     protected int mFooterHeight;
+    /**
+     * 尺寸值的定义状态，用于在值覆盖的时候决定优先级,默认最低优先级
+     */
     protected DimensionStatus mFooterHeightStatus = DimensionStatus.DefaultUnNotify;
 
     /**
@@ -205,86 +362,167 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
     protected RefreshContent mRefreshContent;
     //</editor-fold>
 
+    /**
+     * 画笔
+     */
     protected Paint mPaint;
+    /**
+     * handler
+     */
     protected Handler mHandler;
+    /**
+     * 刷新布局核心功能接口
+     * 为功能复杂的 Header 或者 Footer 开放的接口
+     */
     protected RefreshKernel mKernel;
+    /**
+     * 延迟可运行runable
+     */
     protected List<DelayedRunable> mDelayedRunables;
 
-    protected RefreshState mState = RefreshState.None;          //主状态
-    protected RefreshState mViceState = RefreshState.None;      //副状态（主状态刷新时候的滚动状态）
+    /**
+     * 主状态
+     */
+    protected RefreshState mState = RefreshState.None;          //
+    /**
+     * 副状态（主状态刷新时候的滚动状态）
+     */
+    protected RefreshState mViceState = RefreshState.None;      //
 
-    protected boolean mVerticalPermit = false;                  //竖直通信证（用于特殊事件的权限判定）
+    /**
+     * 竖直通信证（用于特殊事件的权限判定）
+     */
+    protected boolean mVerticalPermit = false;                  //
 
+    /**
+     * 最后加载时间
+     */
     protected long mLastLoadingTime = 0;
+    /**
+     * 最后刷新时间
+     */
     protected long mLastRefreshingTime = 0;
-
-    protected int mHeaderBackgroundColor = 0;                   //为Header绘制纯色背景
+    /**
+     * 为Header绘制纯色背景
+     */
+    protected int mHeaderBackgroundColor = 0;                   //
+    /**
+     * 为Footer绘制纯色背景
+     */
     protected int mFooterBackgroundColor = 0;
 
-    protected boolean mHeaderNeedTouchEventWhenRefreshing;      //为游戏Header提供独立事件
+    /**
+     * 为游戏Header提供独立事件
+     */
+    protected boolean mHeaderNeedTouchEventWhenRefreshing;      //
+    /**
+     * 为游戏Footer提供独立事件
+     */
     protected boolean mFooterNeedTouchEventWhenLoading;
 
+    /**
+     * 手动创建footer
+     */
     protected static boolean sManualFooterCreater = false;
+    /**
+     * 默认footer创建器
+     */
     protected static DefaultRefreshFooterCreater sFooterCreater = new DefaultRefreshFooterCreater() {
         @NonNull
         @Override
         public RefreshFooter createRefreshFooter(Context context, RefreshLayout layout) {
-            return new BallPulseFooter(context);
+            return new BallPulseFooter(context);//默认footer球脉冲
         }
     };
+    /**
+     * 默认header创建器
+     */
     protected static DefaultRefreshHeaderCreater sHeaderCreater = new DefaultRefreshHeaderCreater() {
         @NonNull
         @Override
         public RefreshHeader createRefreshHeader(Context context, RefreshLayout layout) {
-            return new BezierRadarHeader(context);
+            return new BezierRadarHeader(context);//默认header贝塞尔曲线雷达头
         }
     };
 
     //</editor-fold>
 
     //<editor-fold desc="构造方法 construction methods">
+
+    /**
+     * 构造函数
+     */
     public SmartRefreshLayout(Context context) {
         super(context);
         this.initView(context, null);
     }
 
+    /**
+     * 构造函数
+     */
     public SmartRefreshLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.initView(context, attrs);
     }
 
+    /**
+     * 构造函数
+     */
     public SmartRefreshLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.initView(context, attrs);
     }
 
+    /**
+     * 构造函数
+     */
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     public SmartRefreshLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         this.initView(context, attrs);
     }
 
+    /**
+     * 初始化view
+     */
     private void initView(Context context, AttributeSet attrs) {
+//         * clipToPadding就是说控件的绘制区域是否在padding里面的，true的情况下如果你设置了
+//         * padding那么绘制的区域就往里 缩，clipChildren是指子控件是否超过padding区域，
+//         * 这两个属性默认是true的，所以在设置了padding情况下，默认滚动是在 padding内部的，
+//         * 要达到上面的效果主要把这两个属性设置了false那么这样子控件就能画到padding的区域了。
         setClipToPadding(false);
 
+        //dp,px互相转换工具类
         DensityUtil density = new DensityUtil();
+//        ViewConfiguration 是系统中关于视图的各种特性的常量记录对象。其中包含各种基础数据
         ViewConfiguration configuration = ViewConfiguration.get(context);
-
+//        Scroller是一个专门用于处理滚动效果的工具类
         mScroller = new Scroller(context);
+
         mKernel = new RefreshKernelImpl(this);
+
+//        android.view.VelocityTracker主要用跟踪触摸屏事件（flinging事件和其他gestures手势事件）的速率。
+//        用addMovement(MotionEvent)函数将Motion event加入到VelocityTracker类实例中.你可以使用getXVelocity()
+//        或getXVelocity()获得横向和竖向的速率到速率时，但是使用它们之前请先调用computeCurrentVelocity
+//                (int)来初始化速率的单位 。
         mVelocityTracker = VelocityTracker.obtain();
+
         mScreenHeightPixels = context.getResources().getDisplayMetrics().heightPixels;
         mReboundInterpolator = new ViscousFluidInterpolator();
         mTouchSlop = configuration.getScaledTouchSlop();
+
         mMinimumVelocity = configuration.getScaledMinimumFlingVelocity();
         mMaximumVelocity = configuration.getScaledMaximumFlingVelocity();
 
         mNestedScrollingParentHelper = new NestedScrollingParentHelper(this);
         mNestedScrollingChildHelper = new NestedScrollingChildHelper(this);
 
+//        /**获取xml布局中的属性*/
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.SmartRefreshLayout);
 
+        //是否启用嵌套滚动,默认不启用
         ViewCompat.setNestedScrollingEnabled(this, ta.getBoolean(R.styleable.SmartRefreshLayout_srlEnableNestedScrolling, false));
+
         mDragRate = ta.getFloat(R.styleable.SmartRefreshLayout_srlDragRate, mDragRate);
         mHeaderMaxDragRate = ta.getFloat(R.styleable.SmartRefreshLayout_srlHeaderMaxDragRate, mHeaderMaxDragRate);
         mFooterMaxDragRate = ta.getFloat(R.styleable.SmartRefreshLayout_srlFooterMaxDragRate, mFooterMaxDragRate);
@@ -320,8 +558,11 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         mHeaderExtendHeight = (int) Math.max((mHeaderHeight * (mHeaderMaxDragRate - 1)), 0);
         mFooterExtendHeight = (int) Math.max((mFooterHeight * (mFooterMaxDragRate - 1)), 0);
 
+        //重点颜色
         int accentColor = ta.getColor(R.styleable.SmartRefreshLayout_srlAccentColor, 0);
+        //主颜色
         int primaryColor = ta.getColor(R.styleable.SmartRefreshLayout_srlPrimaryColor, 0);
+        //设置主题色和强调色
         if (primaryColor != 0) {
             if (accentColor != 0) {
                 mPrimaryColors = new int[]{primaryColor, accentColor};
@@ -332,6 +573,8 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             mPrimaryColors = new int[]{0, accentColor};
         }
 
+
+        //回收资源
         ta.recycle();
 
     }
@@ -339,13 +582,17 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
 
     //<editor-fold desc="生命周期 life cycle">
 
+    /**
+     * onFinishInflate 当View中所有的子控件均被映射成xml后触发
+     */
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
+        //视图中子控件的个数
         final int count = getChildCount();
         if (count > 3) {
             throw new RuntimeException("最多只支持3个子View，Most only support three sub view");
-        } else if (mEnablePureScrollMode && count > 1) {
+        } else if (mEnablePureScrollMode && count > 1) {//纯滚动模式
             throw new RuntimeException("PureScrollMode模式只支持一个子View，Most only support one sub view in PureScrollMode");
         }
 
@@ -354,19 +601,20 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         //第一次查找确认的 子View
         for (int i = 0; i < count; i++) {
             View view = getChildAt(i);
-            if (view instanceof RefreshHeader && mRefreshHeader == null) {
-                mRefreshHeader = ((RefreshHeader) view);
-            } else if (view instanceof RefreshFooter && mRefreshFooter == null) {
-                mEnableLoadmore = mEnableLoadmore || !mManualLoadmore;
-                mRefreshFooter = ((RefreshFooter) view);
-            } else if (mRefreshContent == null && (view instanceof AbsListView
+            if (view instanceof RefreshHeader && mRefreshHeader == null) {//header未设置,并且view是RefreshHeader的子类
+                mRefreshHeader = ((RefreshHeader) view);//设置header
+            } else if (view instanceof RefreshFooter && mRefreshFooter == null) {//footer未设置,并且view是RefreshFooter的子类
+                //只要手动设置过允许加载更多,则mEnableLoadmore为true?????
+                mEnableLoadmore = mEnableLoadmore || !mManualLoadmore;//允许加载更多或者未手动设置过允许加载更多
+                mRefreshFooter = ((RefreshFooter) view);//设置footer
+            } else if (mRefreshContent == null && (view instanceof AbsListView//滚动内容为空,并且视图属于以下控件
                     || view instanceof WebView
                     || view instanceof ScrollView
                     || view instanceof ScrollingView
                     || view instanceof NestedScrollingChild
                     || view instanceof NestedScrollingParent
                     || view instanceof ViewPager)) {
-                mRefreshContent = new RefreshContentWrapper(view);
+                mRefreshContent = new RefreshContentWrapper(view);//将视图内容设置到包装类
             } else {
                 uncertains[i] = true;//标记未确认
             }
@@ -374,25 +622,27 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         //如果有 未确认（uncertains）的子View 通过智能算法计算
         for (int i = 0; i < count; i++) {
             if (uncertains[i]) {
-                View view = getChildAt(i);
-                if (count == 1 && mRefreshContent == null) {
+                View view = getChildAt(i);//为确认是header,footer还是content的视图
+                if (count == 1 && mRefreshContent == null) {//位置为1,内容视图为空,则设置为内容视图
                     mRefreshContent = new RefreshContentWrapper(view);
-                } else if (i == 0 && mRefreshHeader == null) {
+                } else if (i == 0 && mRefreshHeader == null) {//位置为0,header为空,则设置为header
                     mRefreshHeader = new RefreshHeaderWrapper(view);
-                } else if (count == 2 && mRefreshContent == null) {
+                } else if (count == 2 && mRefreshContent == null) {//位置为2,内容视图为空,设置为内容视图
                     mRefreshContent = new RefreshContentWrapper(view);
-                } else if (i == 2 && mRefreshFooter == null) {
-                    mEnableLoadmore = mEnableLoadmore || !mManualLoadmore;
+                } else if (i == 2 && mRefreshFooter == null) {//位置为2,footer为空,设置为footer
+                    mEnableLoadmore = mEnableLoadmore || !mManualLoadmore;//判定是否为允许上拉加载
                     mRefreshFooter = new RefreshFooterWrapper(view);
-                } else if (mRefreshContent == null) {
+                } else if (mRefreshContent == null) {//内容视图为空,设置为内容视图
                     mRefreshContent = new RefreshContentWrapper(view);
-                } else if (i == 1 && count == 2 && mRefreshFooter == null) {
+                } else if (i == 1 && count == 2 && mRefreshFooter == null) {//位置为1,两个子视图,设置为footer
                     mEnableLoadmore = mEnableLoadmore || !mManualLoadmore;
                     mRefreshFooter = new RefreshFooterWrapper(view);
                 }
             }
         }
-
+//        使用isInEditMode解决可视化编辑器无法识别自定义控件的问题
+//        如果在自定义控件的构造函数或者其他绘制相关地方使用系统依赖的代码，会导致可视化编辑器无法报错并提示
+//        如果不加上if(isInEditMode()) { return; }，标红处代码会导致可视化编辑报错。
         if (isInEditMode()) {
             if (mPrimaryColors != null) {
                 if (mRefreshHeader != null) {
@@ -465,7 +715,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             }
         }
 
-        for (int i = 0, len = getChildCount(); mRefreshContent == null && i < len ; i++) {
+        for (int i = 0, len = getChildCount(); mRefreshContent == null && i < len; i++) {
             View view = getChildAt(i);
             if ((mRefreshHeader == null || view != mRefreshHeader.getView()) &&
                     (mRefreshFooter == null || view != mRefreshFooter.getView())) {
@@ -519,7 +769,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
         }
         try {
             if (!mManualNestedScrolling && !isNestedScrollingEnabled()) {
-                for (ViewParent parent = this ; parent != null ; parent = parent.getParent()) {
+                for (ViewParent parent = this; parent != null; parent = parent.getParent()) {
                     if (parent instanceof CoordinatorLayout) {
                         setNestedScrollingEnabled(true);
                         mManualNestedScrolling = false;
@@ -532,7 +782,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
     }
 
     @Override
-    protected void onMeasure(final int widthMeasureSpec,final int heightMeasureSpec) {
+    protected void onMeasure(final int widthMeasureSpec, final int heightMeasureSpec) {
         int minimumHeight = 0;
         final boolean isInEditMode = isInEditMode() && mEnablePreviewInEditMode;
 
@@ -777,7 +1027,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             int finay = mScroller.getFinalY();
             if ((finay > 0 && mRefreshContent.canLoadmore())
                     || (finay < 0 && mRefreshContent.canRefresh())) {
-                if(mVerticalPermit) {
+                if (mVerticalPermit) {
                     int velocity;
                     if (Build.VERSION.SDK_INT >= 14) {
                         velocity = (int) mScroller.getCurrVelocity();
@@ -922,7 +1172,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
                         if (dy > 0 && (mSpinner < 0 || ((mEnableRefresh || mEnableOverScrollDrag) && mRefreshContent.canRefresh()))) {
                             mIsBeingDragged = true;
                             mTouchY = touchY - mTouchSlop;
-                        } else if (dy < 0 && (mSpinner > 0 || ((mEnableLoadmore||mEnableOverScrollDrag) && mRefreshContent.canLoadmore()))) {
+                        } else if (dy < 0 && (mSpinner > 0 || ((mEnableLoadmore || mEnableOverScrollDrag) && mRefreshContent.canLoadmore()))) {
                             mIsBeingDragged = true;
                             mTouchY = touchY + mTouchSlop;
                         }
@@ -944,7 +1194,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
                     }
                 }
                 if (mIsBeingDragged) {
-                    int spinner = (int)dy + mTouchSpinner;
+                    int spinner = (int) dy + mTouchSpinner;
                     if ((getViceState().isHeader() && (spinner < 0 || mLastSpinner < 0))
                             || (getViceState().isFooter() && (spinner > 0 || mLastSpinner > 0))) {
                         mLastSpinner = spinner;
@@ -961,7 +1211,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
                             mTouchY = mLastTouchY = touchY;
                             mTouchSpinner = spinner = 0;
                             setStatePullDownToRefresh();
-                        } else if (spinner < 0 && ((mEnableLoadmore||mEnableOverScrollDrag) && mRefreshContent.canLoadmore())) {
+                        } else if (spinner < 0 && ((mEnableLoadmore || mEnableOverScrollDrag) && mRefreshContent.canLoadmore())) {
                             mTouchY = mLastTouchY = touchY;
                             mTouchSpinner = spinner = 0;
                             setStatePullUpToLoad();
@@ -2925,16 +3175,19 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             layout.mFooterBackgroundColor = backgroundColor;
             return this;
         }
+
         @Override
         public RefreshKernel requestHeaderNeedTouchEventWhenRefreshing(boolean request) {
             layout.mHeaderNeedTouchEventWhenRefreshing = request;
             return this;
         }
+
         @Override
         public RefreshKernel requestFooterNeedTouchEventWhenLoading(boolean request) {
             layout.mFooterNeedTouchEventWhenLoading = request;
             return this;
         }
+
         @Override
         public RefreshKernel requestDefaultHeaderTranslationContent(boolean translation) {
             if (!layout.mManualHeaderTranslationContent) {
@@ -2943,6 +3196,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             }
             return this;
         }
+
         @Override
         public RefreshKernel requestRemeasureHeightForHeader() {
             if (layout.mHeaderHeightStatus.notifyed) {
@@ -2950,6 +3204,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             }
             return this;
         }
+
         @Override
         public RefreshKernel requestRemeasureHeightForFooter() {
             if (layout.mFooterHeightStatus.notifyed) {
@@ -2957,6 +3212,7 @@ public class SmartRefreshLayout extends ViewGroup implements RefreshLayout, Nest
             }
             return this;
         }
+
         @Override
         public RefreshKernel requestFloorDuration(int duration) {
             layout.mFloorDuration = duration;

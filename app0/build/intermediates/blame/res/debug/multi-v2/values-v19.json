@@ -23,6 +23,30 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "F:\\library\\refreshlayout\\app0\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "F:\\library\\refreshlayout\\app0\\src\\main\\res\\values-v19\\styles.xml",
+                    "from": {
+                        "startLines": "3,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,124",
+                        "endLines": "4,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "116,245"
+                    },
+                    "to": {
+                        "startLines": "2,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endLines": "3,6",
+                        "endColumns": "12,12",
+                        "endOffsets": "113,237"
+                    }
+                }
+            ]
         }
     ]
 }

@@ -1,497 +1,497 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-MERGED from [:refresh-footer] F:\library\SmartRefreshLayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:refresh-header] F:\library\SmartRefreshLayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [:refresh-layout] F:\library\SmartRefreshLayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c51e4d405b248e8678294e30b3576d23\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\26c13e23f3ce4cc06bd9395c5698497d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\42fe72be4f1a164e5a5653e535d8b24c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\fb72d69d8632366bf7c6899b143346b3\AndroidManifest.xml:2:1-16:12
-MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\0e4022033dbe804ee47f6b1c6a0b3d2e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\801de37b8afa44f75e42ca9f483cdf3b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\a9f79b92e9ca9ac4874ef1cc14c0e632\AndroidManifest.xml:2:1-11:12
-MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\75eeed7c2100c317a933d9ecb645f518\AndroidManifest.xml:2:1-11:12
-MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\1b7cb5c163658c100b7bdc071aa4f862\AndroidManifest.xml:2:1-11:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\8f29f998bf436fe42c3d306fa49cbd03\AndroidManifest.xml:2:1-11:12
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\469de08c90322d3bf234f4e1ffc7779b\AndroidManifest.xml:2:1-12:12
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\477901c68849cea674b005dbd89b4798\AndroidManifest.xml:2:1-11:12
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:17:1-61:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\fc34510f94fec9bfff6f033492f22f1f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\29642f1bf39b70f917ce4c7c0b8f8e58\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\5efa1642b494af3f4c026b5522f0509a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\21f730316e3638e7d96615fe0d8aa91c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5d115a13066368b0f5aadf3853189ab8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c3edb4a9379844c2cbd91b56e0a657b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\50b9570594a229f90349f6447c7a3b99\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a85168b7b7382022f2270ffdfa7f55a8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0c5c94ca3e3f36f4692cf1e4a580e007\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ec33c91efd7a498b59d26aa330cbe9a6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\bcd43103832ab23430fb98728f400ee2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\2e570d3574a3f9f6fdfbb78426bc3a15\AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\50645328f184d626c46fac4f16a20f83\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+MERGED from [:refresh-footer] F:\library\refreshlayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:refresh-header] F:\library\refreshlayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:refresh-layout] F:\library\refreshlayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\fc6d80b4e8df36bc326b91a121291e55\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\bb7e46afb7531259cc713548d97c75b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\25c796364a79ec3a687f94cbb5ad0181\AndroidManifest.xml:2:1-11:12
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\02042346785b5b47456084037d996de6\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\49b27b5db49e39b427329d97498ba451\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\5866caed9d8f319f1c3c220054b801ea\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\77b8cf0eed99ca66f0c821a9ccbfaa22\AndroidManifest.xml:2:1-11:12
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\2feb80a394399da13e0590131732989c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\33f561515d354fc4ca7a2d4e32e7ceed\AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\e8855a0ca6d6b751a882bd180478cff8\AndroidManifest.xml:2:1-12:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\3df04e39c297f641997f21f9649d7ef6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:17:1-61:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49bb7213b6bedec3336a3630106a063b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\91d237d038660f78edf0bc88fa05a700\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\520b66eba76062697d5754e820466bd5\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
 	package
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:7:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:24:5-81
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:24:5-81
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:7:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:24:5-81
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:9:5-76
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:9:5-76
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:9:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:14:5-75
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:14:5-75
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:14:22-72
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:14:22-72
 uses-sdk
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-MERGED from [:refresh-footer] F:\library\SmartRefreshLayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:refresh-footer] F:\library\SmartRefreshLayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:refresh-header] F:\library\SmartRefreshLayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:refresh-header] F:\library\SmartRefreshLayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:refresh-layout] F:\library\SmartRefreshLayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:refresh-layout] F:\library\SmartRefreshLayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c51e4d405b248e8678294e30b3576d23\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c51e4d405b248e8678294e30b3576d23\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\26c13e23f3ce4cc06bd9395c5698497d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\26c13e23f3ce4cc06bd9395c5698497d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\42fe72be4f1a164e5a5653e535d8b24c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\42fe72be4f1a164e5a5653e535d8b24c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\fb72d69d8632366bf7c6899b143346b3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\fb72d69d8632366bf7c6899b143346b3\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\0e4022033dbe804ee47f6b1c6a0b3d2e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\0e4022033dbe804ee47f6b1c6a0b3d2e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\801de37b8afa44f75e42ca9f483cdf3b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\801de37b8afa44f75e42ca9f483cdf3b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\a9f79b92e9ca9ac4874ef1cc14c0e632\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\a9f79b92e9ca9ac4874ef1cc14c0e632\AndroidManifest.xml:7:5-9:41
-MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\75eeed7c2100c317a933d9ecb645f518\AndroidManifest.xml:7:5-9:41
-MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\75eeed7c2100c317a933d9ecb645f518\AndroidManifest.xml:7:5-9:41
-MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\1b7cb5c163658c100b7bdc071aa4f862\AndroidManifest.xml:7:5-9:41
-MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\1b7cb5c163658c100b7bdc071aa4f862\AndroidManifest.xml:7:5-9:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\8f29f998bf436fe42c3d306fa49cbd03\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\8f29f998bf436fe42c3d306fa49cbd03\AndroidManifest.xml:5:5-7:41
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\469de08c90322d3bf234f4e1ffc7779b\AndroidManifest.xml:8:5-10:41
-MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\469de08c90322d3bf234f4e1ffc7779b\AndroidManifest.xml:8:5-10:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\477901c68849cea674b005dbd89b4798\AndroidManifest.xml:7:5-9:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\477901c68849cea674b005dbd89b4798\AndroidManifest.xml:7:5-9:41
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\fc34510f94fec9bfff6f033492f22f1f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\fc34510f94fec9bfff6f033492f22f1f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\29642f1bf39b70f917ce4c7c0b8f8e58\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\29642f1bf39b70f917ce4c7c0b8f8e58\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\5efa1642b494af3f4c026b5522f0509a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\5efa1642b494af3f4c026b5522f0509a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\21f730316e3638e7d96615fe0d8aa91c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\21f730316e3638e7d96615fe0d8aa91c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5d115a13066368b0f5aadf3853189ab8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5d115a13066368b0f5aadf3853189ab8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c3edb4a9379844c2cbd91b56e0a657b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7c3edb4a9379844c2cbd91b56e0a657b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\50b9570594a229f90349f6447c7a3b99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\50b9570594a229f90349f6447c7a3b99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a85168b7b7382022f2270ffdfa7f55a8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\a85168b7b7382022f2270ffdfa7f55a8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0c5c94ca3e3f36f4692cf1e4a580e007\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0c5c94ca3e3f36f4692cf1e4a580e007\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ec33c91efd7a498b59d26aa330cbe9a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\ec33c91efd7a498b59d26aa330cbe9a6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\bcd43103832ab23430fb98728f400ee2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\bcd43103832ab23430fb98728f400ee2\AndroidManifest.xml:20:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\2e570d3574a3f9f6fdfbb78426bc3a15\AndroidManifest.xml:21:5-44
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\2e570d3574a3f9f6fdfbb78426bc3a15\AndroidManifest.xml:21:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\50645328f184d626c46fac4f16a20f83\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\50645328f184d626c46fac4f16a20f83\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+MERGED from [:refresh-footer] F:\library\refreshlayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:refresh-footer] F:\library\refreshlayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:refresh-header] F:\library\refreshlayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:refresh-header] F:\library\refreshlayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:refresh-layout] F:\library\refreshlayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:refresh-layout] F:\library\refreshlayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\fc6d80b4e8df36bc326b91a121291e55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\fc6d80b4e8df36bc326b91a121291e55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\bb7e46afb7531259cc713548d97c75b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\bb7e46afb7531259cc713548d97c75b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\25c796364a79ec3a687f94cbb5ad0181\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\25c796364a79ec3a687f94cbb5ad0181\AndroidManifest.xml:5:5-7:41
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\02042346785b5b47456084037d996de6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\02042346785b5b47456084037d996de6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\49b27b5db49e39b427329d97498ba451\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.31] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.31.aar\49b27b5db49e39b427329d97498ba451\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\5866caed9d8f319f1c3c220054b801ea\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.czy1121:loadinglayout:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\loadinglayout-1.0.1.aar\5866caed9d8f319f1c3c220054b801ea\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\77b8cf0eed99ca66f0c821a9ccbfaa22\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mmin18:realtimeblurview:1.0.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\realtimeblurview-1.0.6.aar\77b8cf0eed99ca66f0c821a9ccbfaa22\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\2feb80a394399da13e0590131732989c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.wang.avi:library:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-2.1.3.aar\2feb80a394399da13e0590131732989c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\33f561515d354fc4ca7a2d4e32e7ceed\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\33f561515d354fc4ca7a2d4e32e7ceed\AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\e8855a0ca6d6b751a882bd180478cff8\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-animators-2.2.6.aar\e8855a0ca6d6b751a882bd180478cff8\AndroidManifest.xml:8:5-10:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\3df04e39c297f641997f21f9649d7ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\android-gif-drawable-1.2.3.aar\3df04e39c297f641997f21f9649d7ef6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8e78b6eca706c4f042f4fd5ffe7bd41e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a5be8926699d224c38e66b96f6432a62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49bb7213b6bedec3336a3630106a063b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\49bb7213b6bedec3336a3630106a063b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\91d237d038660f78edf0bc88fa05a700\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\91d237d038660f78edf0bc88fa05a700\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\962538b20e3332acab657580257cb380\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\ce7d71cd5fd05a3e8b0d823c2c978162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\fb6e70de8302ac02cab8177cbf02e1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\f1b0d7da3070d4fe409d977cdfe66fb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a841cf547ab5c12c183cfb39952abfbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\e66acf9c62ae41078851791c46634f38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\7381883ade1eb53a867e937f395981b8\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\520b66eba76062697d5754e820466bd5\AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\520b66eba76062697d5754e820466bd5\AndroidManifest.xml:21:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\295b66c79f39ee187c4c0e36e2b1d03a\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
 	tools:overrideLibrary
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:17:9-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:17:9-65
 	android:targetSdkVersion
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:16:5-17:67
-		INJECTED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:16:5-17:67
+		INJECTED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml
 application
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:19:5-153:19
-MERGED from [:refresh-footer] F:\library\SmartRefreshLayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:refresh-footer] F:\library\SmartRefreshLayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:refresh-header] F:\library\SmartRefreshLayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:refresh-header] F:\library\SmartRefreshLayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:refresh-layout] F:\library\SmartRefreshLayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [:refresh-layout] F:\library\SmartRefreshLayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\42fe72be4f1a164e5a5653e535d8b24c\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\42fe72be4f1a164e5a5653e535d8b24c\AndroidManifest.xml:9:5-20
-MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\fb72d69d8632366bf7c6899b143346b3\AndroidManifest.xml:11:5-14:19
-MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\fb72d69d8632366bf7c6899b143346b3\AndroidManifest.xml:11:5-14:19
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\8f29f998bf436fe42c3d306fa49cbd03\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\8f29f998bf436fe42c3d306fa49cbd03\AndroidManifest.xml:9:5-20
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:26:5-59:19
-MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:26:5-59:19
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\2e570d3574a3f9f6fdfbb78426bc3a15\AndroidManifest.xml:23:5-20
-MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\2e570d3574a3f9f6fdfbb78426bc3a15\AndroidManifest.xml:23:5-20
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:19:5-153:19
+MERGED from [:refresh-footer] F:\library\refreshlayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:refresh-footer] F:\library\refreshlayout\refresh-footer\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:refresh-header] F:\library\refreshlayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:refresh-header] F:\library\refreshlayout\refresh-header\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:refresh-layout] F:\library\refreshlayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:refresh-layout] F:\library\refreshlayout\refresh-layout\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\25c796364a79ec3a687f94cbb5ad0181\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\25c796364a79ec3a687f94cbb5ad0181\AndroidManifest.xml:9:5-20
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\02042346785b5b47456084037d996de6\AndroidManifest.xml:11:5-14:19
+MERGED from [com.flyco.roundview:FlycoRoundView_Lib:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoRoundView_Lib-1.1.4.aar\02042346785b5b47456084037d996de6\AndroidManifest.xml:11:5-14:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\33f561515d354fc4ca7a2d4e32e7ceed\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\33f561515d354fc4ca7a2d4e32e7ceed\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\520b66eba76062697d5754e820466bd5\AndroidManifest.xml:23:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\520b66eba76062697d5754e820466bd5\AndroidManifest.xml:23:5-20
 	android:supportsRtl
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:23:9-41
 	android:roundIcon
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:24:9-48
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:24:9-48
 	android:icon
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:26:9-40
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:20:9-28
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:20:9-28
 activity#com.scwang.refreshlayout.activity.IndexMainActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:27:9-35:20
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:27:9-35:20
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:29:13-62
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:29:13-62
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:28:13-55
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:28:13-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:33:27-74
 activity#com.scwang.refreshlayout.activity.FragmentActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:36:9-37:51
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:36:9-37:51
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:37:13-49
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:36:19-60
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:36:19-60
 activity#com.scwang.refreshlayout.activity.style.FlyRefreshStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:38:9-41:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:38:9-41:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:41:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:40:13-63
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:40:13-63
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:39:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:39:13-67
 activity#com.scwang.refreshlayout.activity.using.NestedLayoutUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:42:9-44:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:42:9-44:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:44:13-49
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:43:13-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:43:13-69
 activity#com.scwang.refreshlayout.activity.style.WaveSwipStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:45:9-48:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:45:9-48:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:48:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:48:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:47:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:47:13-67
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:46:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:46:13-65
 activity#com.scwang.refreshlayout.activity.style.MaterialStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:49:9-52:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:49:9-52:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:51:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:51:13-66
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:50:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:50:13-65
 activity#com.scwang.refreshlayout.activity.style.WaterDropStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:53:9-56:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:53:9-56:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:56:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:55:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:55:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:54:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:54:13-66
 activity#com.scwang.refreshlayout.activity.style.PhoenixStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:57:9-60:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:60:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:59:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:59:13-65
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:58:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:58:13-64
 activity#com.scwang.refreshlayout.activity.style.TaurusStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:61:9-64:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:61:9-64:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:64:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:64:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:63:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:63:13-64
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:62:13-63
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:62:13-63
 activity#com.scwang.refreshlayout.activity.style.BezierStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:65:9-68:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:65:9-68:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:68:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:68:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:67:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:67:13-64
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:66:13-63
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:66:13-63
 activity#com.scwang.refreshlayout.activity.style.ClassicsStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:69:9-72:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:69:9-72:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:72:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:71:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:71:13-66
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:70:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:70:13-65
 activity#com.scwang.refreshlayout.activity.style.CircleStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:73:9-76:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:73:9-76:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:76:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:76:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:75:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:75:13-64
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:74:13-63
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:74:13-63
 activity#com.scwang.refreshlayout.activity.style.FunGameBattleCityStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:77:9-80:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:77:9-80:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:80:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:80:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:79:13-76
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:79:13-76
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:78:13-74
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:78:13-74
 activity#com.scwang.refreshlayout.activity.style.FunGameHitBlockStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:81:9-84:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:81:9-84:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:84:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:84:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:83:13-74
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:83:13-74
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:82:13-72
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:82:13-72
 activity#com.scwang.refreshlayout.activity.style.StoreHouseStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:85:9-88:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:85:9-88:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:88:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:88:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:87:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:87:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:86:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:86:13-67
 activity#com.scwang.refreshlayout.activity.style.DropboxStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:89:9-92:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:89:9-92:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:92:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:92:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:91:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:91:13-65
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:90:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:90:13-64
 activity#com.scwang.refreshlayout.activity.style.DeliveryStyleActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:93:9-96:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:93:9-96:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:96:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:96:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:95:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:95:13-65
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:94:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:94:13-65
 activity#com.scwang.refreshlayout.activity.using.BasicUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:97:9-100:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:97:9-100:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:100:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:100:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:99:13-63
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:99:13-63
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:98:13-62
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:98:13-62
 activity#com.scwang.refreshlayout.activity.using.AssignDefaultUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:101:9-104:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:101:9-104:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:104:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:104:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:103:13-72
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:103:13-72
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:102:13-70
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:102:13-70
 activity#com.scwang.refreshlayout.activity.using.AssignXmlUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:105:9-108:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:105:9-108:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:108:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:108:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:107:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:107:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:106:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:106:13-66
 activity#com.scwang.refreshlayout.activity.using.AssignCodeUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:109:9-112:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:109:9-112:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:112:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:112:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:111:13-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:111:13-69
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:110:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:110:13-67
 activity#com.scwang.refreshlayout.activity.using.OverScrollUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:113:9-116:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:113:9-116:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:116:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:115:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:115:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:114:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:114:13-67
 activity#com.scwang.refreshlayout.activity.using.ListenerUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:117:9-120:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:117:9-120:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:120:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:120:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:119:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:119:13-66
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:118:13-65
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:118:13-65
 activity#com.scwang.refreshlayout.activity.practice.RepastPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:121:9-124:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:121:9-124:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:124:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:124:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:123:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:123:13-67
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:122:13-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:122:13-69
 activity#com.scwang.refreshlayout.activity.practice.ProfilePracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:125:9-128:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:125:9-128:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:128:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:128:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:127:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:127:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:126:13-70
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:126:13-70
 activity#com.scwang.refreshlayout.activity.practice.WebviewPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:129:9-132:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:129:9-132:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:132:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:132:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:131:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:131:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:130:13-70
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:130:13-70
 activity#com.scwang.refreshlayout.activity.practice.FeedlistPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:133:9-136:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:133:9-136:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:136:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:136:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:135:13-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:135:13-69
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:134:13-71
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:134:13-71
 activity#com.scwang.refreshlayout.activity.practice.WeiboPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:137:9-140:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:137:9-140:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:140:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:140:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:139:13-66
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:139:13-66
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:138:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:138:13-68
 activity#com.scwang.refreshlayout.activity.practice.BannerPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:141:9-143:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:141:9-143:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:143:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:142:13-67
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:142:13-67
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:141:19-75
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:141:19-75
 activity#com.scwang.refreshlayout.activity.practice.QQBrowserPracticeActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:144:9-146:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:144:9-146:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:146:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:146:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:145:13-70
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:145:13-70
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:144:19-78
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:144:19-78
 activity#com.scwang.refreshlayout.activity.using.CustomUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:147:9-149:52
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:147:9-149:52
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:149:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:149:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:148:13-64
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:148:13-64
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:147:19-69
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:147:19-69
 activity#com.scwang.refreshlayout.activity.using.SnapHelperUsingActivity
-ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:150:9-152:51
+ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:150:9-152:51
 	android:screenOrientation
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:152:13-49
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:152:13-49
 	android:label
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:151:13-68
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:151:13-68
 	android:name
-		ADDED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:150:19-73
+		ADDED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:150:19-73
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:23:5-80
-IMPLIED from F:\library\SmartRefreshLayout\app\src\main\AndroidManifest.xml:2:1-155:12 reason: com.squareup.leakcanary requested WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:23:5-80
+IMPLIED from F:\library\refreshlayout\app0\src\main\AndroidManifest.xml:2:1-155:12 reason: com.squareup.leakcanary requested WRITE_EXTERNAL_STORAGE
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:23:22-77
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:23:22-77
 service#com.squareup.leakcanary.internal.HeapAnalyzerService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:27:9-30:45
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:27:9-30:45
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:30:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:30:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:29:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:28:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:28:13-80
 service#com.squareup.leakcanary.DisplayLeakService
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:31:9-34:45
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:31:9-34:45
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:34:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:34:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:33:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:32:13-70
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:32:13-70
 activity#com.squareup.leakcanary.internal.DisplayLeakActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:36:9-49:20
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:36:9-49:20
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:41:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:41:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:38:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:38:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:40:13-71
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:40:13-71
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:39:13-54
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:39:13-54
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:43:13-63
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:43:13-63
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:42:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:42:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:37:13-80
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:37:13-80
 activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
-ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:50:9-58:68
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:50:9-58:68
 	android:process
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:56:13-42
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:56:13-42
 	android:enabled
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:52:13-36
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:52:13-36
 	android:label
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:55:13-82
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:55:13-82
 	android:excludeFromRecents
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:53:13-46
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:53:13-46
 	android:icon
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:54:13-54
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:54:13-54
 	android:theme
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:58:13-65
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:58:13-65
 	android:taskAffinity
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:57:13-76
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:57:13-76
 	android:name
-		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\7351d3b3dd310d47583060aa4026d5ce\AndroidManifest.xml:51:13-93
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5aea36e6e9fc4b58b9362dce1f5608da\AndroidManifest.xml:51:13-93
